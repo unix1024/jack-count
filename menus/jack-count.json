@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle jack-count",
+        "command": "jack-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jack-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "jack-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
